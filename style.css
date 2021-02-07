@@ -14,6 +14,14 @@ ul {
   font-family: "Roboto", sans-serif;
 }
 
+.font-white {
+  color: white;
+}
+
+.color-white {
+  color: white;
+}
+
 .v-center {
   display: flex;
   align-items: center;
@@ -40,7 +48,7 @@ ul > li {
 }
 
 li a {
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
