@@ -47,6 +47,48 @@ a {
   flex-direction: column-reverse;
 }
 
+.card-simple {
+  /*border: 1px solid lightgray;*/
+  border-radius: 5px;
+  width: 7em;
+  height: 10em;
+  align-items: center;
+}
+
+.hobbies-h {
+  width: 10em;
+  height: auto;
+}
+.hobbies-v {
+  width: auto;
+  height: 10em;
+}
+
+.skill {
+  max-width: 60%;
+  height: auto;
+  margin: 0.5em;
+}
+
+.checked {
+  color: orange;
+}
+.raiting {
+  display: inline-block !important;
+}
+
+.word-box {
+  border: 1px solid gray;
+  color: gray;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: smaller;
+  margin-right: 0.2em;
+  margin-bottom: 0.4em;
+  white-space: nowrap;
+}
+
 .btn-simple {
   border: 2px solid white;
   background-color: rgba(100, 100, 100, 0);
