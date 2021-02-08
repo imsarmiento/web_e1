@@ -5,7 +5,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Lora", serif;
 }
 
@@ -14,17 +15,65 @@ ul {
   font-family: "Roboto", sans-serif;
 }
 
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .font-white {
   color: white;
+}
+
+strong {
+  color: #fa897b;
+  opacity: 0.7;
 }
 
 .color-white {
   color: white;
 }
 
+h2,
+a {
+  color: #fa897b;
+}
+
 .v-center {
   display: flex;
   align-items: center;
+}
+
+.flex-inverse {
+  flex-direction: column-reverse;
+}
+
+.btn-simple {
+  border: 2px solid white;
+  background-color: rgba(100, 100, 100, 0);
+  color: white;
+  padding: 0.4em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-simple:hover {
+  background-color: white;
+  color: #fa897b;
+}
+
+.icon {
+  width: 20em;
+  height: auto;
+}
+
+.medium-image {
+  width: 7em;
+  height: auto;
+}
+.small-image {
+  width: 5em;
+  height: auto;
 }
 
 /* Background image */
@@ -52,6 +101,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline white;
 }
 
 /* Sticker */
