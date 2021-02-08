@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Small logo-->
     <link rel="shortcut icon" type="image/x-icon" href="img/logo_black.png" />
+    
     <!-- Links Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- Links a google fonts-->
@@ -32,7 +33,7 @@
         <div class="row pt-3">
           <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-              <img src="img/logo_white.png" alt="IS logo" class="logo" />
+              <a href="#home"><img src="img/logo_white.png" alt="IS logo" class="logo" /></a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -50,7 +51,6 @@
                   <li class="nav-item"><a href="#about">About</a></li>
                   <li class="nav-item"><a href="#academics">Academics</a></li>
                   <li class="nav-item"><a href="#extra">Extra</a></li>
-                  <li class="nav-item"><a href="#contact">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -65,7 +65,7 @@
                   <div>I'm Isabela Sarmiento</div>
                 </h1>
                 <p>Software Engineering & Electronics Engineering Student</p>
-                <button type="button" class="btn-simple">Contact me!</button>
+                <a href="mailto:isamasar@hotmail.com"><button type="button" class="btn-simple" >Contact me!</button></a>
               </div>
             </div>
             <div class="col-5 text-center pb-3">
@@ -78,198 +78,268 @@
           </div>
         </header>
       </div>
-      <main>
+      
         <!-- About -->
-        <div class="row pt-5" id="about">
-          <h2 class="text-center color-pink">· About ·</h2>
-          <div class="col-8 text-justify pt-3">
-            <p class="text-justify px-5">
-              As you saw already, my name is Isabela Sarmiento. I'm currently
-              finishing my double major and my free time I enjoy
-              <strong>reading</strong> a <em>good</em> book or
-              <strong>watching</strong> a <em>good</em> TV series (good in my
-              terms is anything that has either a captivating love story,
-              amazing character development, hillarious dialogue or a gripping
-              mistery). I love spending time with my <strong>family</strong> and
-              <strong>friends</strong> and more recently with my new puppy, her
-              name is Cayena. If I have some extra time, you can catch me
-              drawing something, doing some embroidery, or practicing Karate (i
-              just started a year ago so I have a lot to learn).
-            </p>
-            <p class="text-justify px-5">
-              I am passionate about <strong>creating</strong> stuff, either
-              hardware or software. I like developing any kind of software
-              application or designing integrated circuits that can help solve a
-              problem. I am interesented in <strong>learning</strong> more abour
-              ML, AI, IoT, evolutionary algorithims, optimization,
-              automatization and electronics sistems.
-            </p>
-          </div>
-          <div class="col text-center p-0">
-            <img
-              src="img/icon.png"
-              alt="Simple drawing of myself"
-              class="icon"
-            />
-          </div>
-        </div>
+        <section>
+          <div class="row py-7 px-8" id="about">
+            <h2 class="text-center color-pink pb-4">· About ·</h2>
+            <div class="col-8 text-justify pt-3">
+              <div class="row"></div>
+              <p class="text-justify">
+                As you saw already, my name is Isabela Sarmiento. I'm currently
+                finishing my double major and my free time I enjoy
+                <strong>reading</strong> a <em>good</em> book or
+                <strong>watching</strong> a <em>good</em> TV series (good in my
+                terms is anything that has either a captivating love story,
+                amazing character development, hillarious dialogue or a gripping
+                mistery). I love spending time with my
+                <strong>family</strong> and <strong>friends</strong> and more
+                recently with my new puppy, her name is Cayena. If I have some
+                extra time, you can catch me drawing something, doing some
+                embroidery, or practicing Karate (I just started a year ago so I
+                have a lot to learn).
+              </p>
+              <p class="text-justify ">
+                I am passionate about <strong>creating</strong> stuff, either
+                hardware or software. I like developing any kind of software
+                application or designing integrated circuits that can help solve
+                a problem. I am interesented in <strong>learning</strong> more
+                abour ML, AI, IoT, evolutionary algorithims, optimization,
+                automatization and electronics sistems.
+              </p>
+              <div class="row text-center justify-content-center">
+                <div class="col-1">
+                  <a href="mailto:isamasar@hotmail.com">
+                    <img
+                      src="contact/mail.png"
+                      alt="mail"
+                      class="xxsmall-image"
+                    />
+                  </a>
+                </div>
+                <div class="col-1">
+                  <a href="https://www.instagram.com/isamasar/?hl=en">
+                    <img
+                      src="contact/ig.png"
+                      alt="instagram"
+                      class="xxsmall-image"
+                    />
+                  </a>
+                </div>
+                <div class="col-1">
+                  <a href="https://www.facebook.com/profile.php?id=100010776090351">
+                    <img
+                      src="contact/fb.png"
+                      alt="facebook"
+                      class="xxsmall-image"
+                    />
+                  </a>
+                </div>
+                <div class="col-1">
+                  <a href="https://github.com/imsarmiento">
+                    <img
+                      src="contact/github.png"
+                      alt="github"
+                      class="xxsmall-image"
+                    />
+                  </a>
+                </div>
+              </div>
 
+            </div>
+            <div class="col text-center p-0">
+              <img
+                src="img/icon.png"
+                alt="Simple drawing of myself"
+                class="icon"
+              />
+            </div>
+          </div>
+        </section>
+        <div class="text-center px-8">
+          <hr>  
+        </div>
+        
         <!-- Academics -->
-
-        <div class="row pt-5" id="academics">
-          <h2 class="text-center">· Academics ·</h2>
-          <div class="row">
-            <div class="col text-center">
-              <h3 class="py-2">Education</h3>
-              <div class="row justify-content-evenly">
-                <div class="col-5 text-center">
-                  <img
-                    src="img/LDV_logo.png"
-                    alt="Leonardo Da Vinci School Logo"
-                    class="medium-image pb-3"
-                  />
-                  <p><b>Colegio Italiano Leonardo da Vinci</b></p>
-                  <div class="text-justify">
-                    From 2005 to 2017, I attended Elementary School, Middle
-                    School and High School in this institution. In my last four
-                    years I did an emphasis on Math, Phisics, Science and
-                    Informatics and learnt the basis of OOP and Java.
+        <section>
+          <div class="row py-7 px-10" id="academics">
+            <h2 class="text-center pb-4">· Academics ·</h2>
+              <div class="row text-center pb-5">
+                <article>
+                <h3 class="py-4">Education</h3>
+                <div class="row justify-content-evenly">
+                  <div class="col-5 text-center">
+                    <img
+                      src="img/LDV_logo.png"
+                      alt="Leonardo Da Vinci School Logo"
+                      class="medium-image pb-3"
+                    />
+                    <p><b>Colegio Italiano Leonardo da Vinci</b></p>
+                    <div class="text-justify">
+                      From 2005 to 2017, I attended Elementary School, Middle
+                      School and High School in this institution. In my last
+                      four years I did an emphasis on Math, Phisics, Science and
+                      Informatics and learnt the basis of OOP and Java.
+                    </div>
+                  </div>
+                  <div class="col-5 text-center">
+                    <img
+                      src="img/Uniandes_logo.png"
+                      alt="Universidad de los Andes Logo"
+                      class="small-image pb-3"
+                    />
+                    <p><b>Universidad de los Andes</b></p>
+                    <div class="text-justify">
+                      I started to study Software Engineering in 2017, and in
+                      2018 started a double mayor with Electronics Engineering
+                      and a minor digree in Japanese Language and Culture.
+                      Currently endind both mayors and already finished my
+                      minor.
+                    </div>
                   </div>
                 </div>
-                <div class="col-5 text-center">
-                  <img
-                    src="img/Uniandes_logo.png"
-                    alt="Universidad de los Andes Logo"
-                    class="small-image pb-3"
-                  />
-                  <p><b>Universidad de los Andes</b></p>
-                  <div class="text-justify">
-                    I started to study Software Engineering in 2017, and in 2018
-                    started a double mayor with Electronics Engineering and a
-                    minor digree in Japanese Language and Culture. Currently
-                    endind both mayors and already finished my minor.
-                  </div>
+                </article>
+              </div>
+
+              <div class="row text-center px-5 pb-5">
+                <article>
+                <h3 class="py-4">Experience</h3>
+                <div class="row justify-content-evenly px-12">
+                  <i class="fas fa-gavel fa-2x pb-2"></i>
+                  <p>
+                    <b>President of School's Colombian Congress Model</b>
+                    [2016-2017]
+                  </p>
+                  <p>
+                    Organized and lead two commisions that discussed topics
+                    concernings the Colombian Constitution and proposed various
+                    decrees to solve problemns related to education and social
+                    injustice.
+                  </p>
+
+                  <i class="fas fa-graduation-cap fa-2x pb-2"></i>
+                  <p><b>Teaching Asistant at Uniandes</b> [2018-2020]</p>
+                  <p>
+                    Worked in 3 different courses: OOP1, Transactional Systems
+                    and Signals and Systems. My role was to give help students
+                    anwering all of their questions and give them various
+                    tutoring sessions.
+                  </p>
+
+                  <i class="fas fa-laptop-code fa-2x pb-2"></i>
+                  <p>
+                    <b
+                      >FullStack Depelover at
+                      <a href="https://equiposarco.com/home/">EquiposArco</a></b
+                    >
+                    [Summer of 2020]
+                  </p>
+                  <p>
+                    Worked in a web based app development for accounting and
+                    inventory management
+                  </p>
                 </div>
+                </article>
+              </div>
+
+            <div class="row pb-5 px-5 text-center">
+              <article>
+              <div>
+                <h3 class="py-4">Awards</h3>
+              </div>
+              <ol>
+                <li>
+                  <em>Cento e lode (2017):</em> distinction given by the Italian
+                  Ministry of University and Research for students who obtain a
+                  perfect score in the Italian state exam.
+                </li>
+                <li>
+                  First Place in <em>Concurso de Inovación con TIC</em> (2019). Competition
+                  organized by Los Andes University that awars innovative
+                  proyects related by IT.
+                </li>
+              </ol>
+              </article>
+            </div>
+            <article>
+            <div class="row text-center">
+              <h3 class="py-5">Proyects</h3>
+              <div class="row">
+
+              <div class="col">
+                <video
+                  width="350em"
+                  height="auto"
+                  src="projects/IMG_2837.mp4"
+                  controls
+                ></video>
+                <p><b>RIGravity</b></p>
+                <p>
+                  Using an IC we were able of controlling a LED Matrix and
+                  an accelerometer, in order to make a led move acording to
+                  gravity
+                </p>
+              </div>
+              <div class="col">
+                <video
+                  width="350em"
+                  height="auto"
+                  src="projects/IMG_2500.mp4"
+                  controls
+                ></video>
+                <p><b>RIGInvaders</b></p>
+                <p>
+                  Using a FPGA, an Arduino, a LED Matrix  and different buttons we
+                  programmed a simple version of the arcade game Space Invaders.
+                </p>
+              </div>
+              <div class="col">
+                <video
+                  width="350em"
+                  height="auto"
+                  src="projects/IMG_4475.mp4"
+                  controls
+                ></video>
+                <p><b>BOU Solution</b></p>
+                <p>
+                  Using an Arduino, a NFC reader and diferent tangs and Firebase
+                  we where able of simultaing IoT in clothing tags and speeding
+                  up in-stores payment method.
+                </p>
               </div>
             </div>
-            <div class="col text-center px-5">
-              <h3 class="py-2">Experience</h3>
-              <div class="row justify-content-evenly">
-                <i class="fas fa-gavel fa-2x pb-2"></i>
-                <p>
-                  <b>President of School's Colombian Congress Model</b>
-                  [2016-2017]
-                </p>
-                <p>
-                  Organized and lead two commisions that discussed topics
-                  concernings the Colombian Constitution and proposed various
-                  decrees to solve problemns related to education and social
-                  injustice.
-                </p>
+            </div>
+          </article>
+          </div>
+        </section>
 
-                <i class="fas fa-graduation-cap fa-2x pb-2"></i>
-                <p><b>Teaching Asistant at Uniandes</b> [2018-2020]</p>
-                <p>
-                  Worked in 3 different courses: OOP1, Transactional Systems and
-                  Signals and Systems. My role was to give help students
-                  anwering all of their questions and give them various tutoring
-                  sessions.
-                </p>
-
-                <i class="fas fa-laptop-code fa-2x pb-2"></i>
-                <p>
-                  <b
-                    >FullStack Depelover at
-                    <a href="https://equiposarco.com/home/">EquiposArco</a></b
-                  >
-                  [Summer of 2020]
-                </p>
-                <p>
-                  Worked in a web based app development for accounting and
-                  inventory management
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row py-2 px-5 text-center">
-            <div>
-              <h3 class="pb-2">Awards</h3>
-            </div>
-            <ol>
-              <li>
-                <em>Cento e lode:</em> distinction given by the Italian Ministry
-                of University and Research for students who obtain a perfect
-                score in the Italian state exam.
-              </li>
-              <li>
-                First Place in Concurso de Inovación con TIC 2019. Competition
-                organizes by Los Andes University that awars innovative proyects
-                related by IT.
-              </li>
-            </ol>
-          </div>
-          <div class="row py-2 text-center">
-            <h3 clas="pb-5">Proyects</h3>
-            <div class="col">
-              <video
-                width="350em"
-                height="auto"
-                src="projects/IMG_2837.mp4"
-                controls
-              ></video>
-              <p><b>Accelerometer</b></p>
-              <p>
-                Using an Arduino we were able of controlling a LED Matrix and an
-                accelerometer, in order to make a led move acording to gravity
-              </p>
-            </div>
-            <div class="col">
-              <video
-                width="350em"
-                height="auto"
-                src="projects/IMG_2500.mp4"
-                controls
-              ></video>
-              <p><b>RigInvaders</b></p>
-              <p>
-                Using an Arduino, a LED Matrix and different buttons we
-                programmed a simple version of the arcade game Space Invaders.
-              </p>
-            </div>
-            <div class="col">
-              <video
-                width="350em"
-                height="auto"
-                src="projects/IMG_4475.mp4"
-                controls
-              ></video>
-              <p><b>BOU Solution</b></p>
-              <p>
-                Using an Arduino, a NFC reader and diferent tangs and Firebase
-                we where able of simultaing IoT in clothing tags and speeding up
-                in-stores payment method.
-              </p>
-            </div>
-          </div>
+        <div class="text-center px-8">
+          <hr>  
         </div>
 
-        <div class="row pt-5" id="extra">
-          <h2 class="text-center">· Extra ·</h2>
+        <!-- Extra -->
+
+        <div class="row py-7 px-10" id="extra">
+          <section>
+          <h2 class="text-center pb-4">· Extra ·</h2>
           <div class="row">
             <div class="col text-center">
-              <h3>Interests</h3>
-              <span class="word-box">Machine Learning</span>
-              <span class="word-box">Internet of Things</span>
-              <span class="word-box">Artificial Intelligence</span>
-              <span class="word-box">Algorithims</span>
-              <span class="word-box">Optimization</span>
-              <span class="word-box">Automatizacion</span>
-              <span class="word-box">Electronics</span>
-              <span class="word-box">Robotics</span>
-              <span class="word-box">Integrated Circuits</span>
+              <article>
+                <h3 class="py-5">Interests</h3>
+                <span class="word-box">Machine Learning</span>
+                <span class="word-box">Internet of Things</span>
+                <span class="word-box">Artificial Intelligence</span>
+                <span class="word-box">Algorithims</span>
+                <span class="word-box">Optimization</span>
+                <span class="word-box">Automatizacion</span>
+                <span class="word-box">Electronics</span>
+                <span class="word-box">Robotics</span>
+                <span class="word-box">Integrated Circuits</span>
+              </article>
             </div>
             <div class="col text-center">
-              <h3>Skills</h3>
+              <article>
+              <h3 class="py-5">Skills</h3>
               <div class="row">
                 <div class="col">
                   <div class="card-simple text-center p-2">
@@ -345,13 +415,16 @@
                   </div>
                 </div>
               </div>
+              </article>
             </div>
 
             <div class="row">
               <div class="col">
                 <div class="row text-center v-center">
-                  <h3>Hobbies</h3>
-                  <div class="row v-center">
+                  <article>
+
+                  <h3 class="py-5">Hobbies</h3>
+                  <div class="row justify-content-center v-center ">
                     <div class="col">
                       <img
                         src="hobbies/reading.jpeg"
@@ -367,70 +440,92 @@
                       />
                     </div>
                   </div>
-                  <div class="row v-center">
+                  <div class="row v-center justify-content-center">
                     <div class="col">
                       <img
                         src="hobbies/karate.jpg"
                         alt="karate"
-                        class="hobbies-h"
+                        class="hobbies-v"
                       />
                     </div>
                     <div class="col">
                       <img
                         src="hobbies/drawing.png"
                         alt="drawing"
-                        class="hobbies-v"
+                        class="hobbies-h"
                       />
                     </div>
                   </div>
+                </article>
+
                 </div>
               </div>
               <div class="col">
                 <div class="row text-center">
-                  <h3>Languages</h3>
+                  <article>
+                  <h3 class="py-5">Languages</h3>
                   <p>Español - C2</p>
                   <p>English - C1</p>
                   <p>Italiano - C1</p>
                   <p>日本語 - B1</p>
+                  </article>
                 </div>
               </div>
             </div>
           </div>
+          </section>
         </div>
+        
+      </main>
+      <footer>
 
-        <div class="row pt-5" id="contact">
-          <h2 class="text-center">· Contact ·</h2>
-          <div class="row justify-content-evenly text-center">
-            <div class="col">
+        <div class="row py-7 px-8 bg-image" id="contact">
+          <div class="row justify-content-center text-center pb-4">
+            <div class="col-2">
+              <a href="mailto:isamasar@hotmail.com">
+                <img
+                  src="contact/mail.png"
+                  alt="mail"
+                  class="xsmall-image"
+                />
+              </a>
+            </div>
+            <div class="col-2">
               <a href="https://www.instagram.com/isamasar/?hl=en">
                 <img
-                  src="contact/instagram.f679e0b4.svg"
+                  src="contact/ig.png"
                   alt="instagram"
-                  class="small-image"
+                  class="xsmall-image"
                 />
               </a>
             </div>
-            <div class="col">
+            <div class="col-2">
               <a href="https://www.facebook.com/profile.php?id=100010776090351">
                 <img
-                  src="contact/facebook.03d81152.svg"
+                  src="contact/fb.png"
                   alt="facebook"
-                  class="small-image"
+                  class="xsmall-image"
                 />
               </a>
             </div>
-            <div class="col">
+            <div class="col-2">
               <a href="https://github.com/imsarmiento">
                 <img
-                  src="contact/github.6c90eb83.svg"
+                  src="contact/github.png"
                   alt="github"
-                  class="small-image"
+                  class="xsmall-image"
                 />
               </a>
             </div>
+            
           </div>
+          <div class="row text-center">
+            <p>©Copyright 2021 by Isabela Sarmiento. All rights reserved.</p>
+          </div>
+
         </div>
-      </main>
+
+      </footer>
     </div>
 
     <script
