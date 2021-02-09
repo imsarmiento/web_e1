@@ -1,3 +1,6 @@
+.row {
+  padding-right: 0;
+}
 .logo {
   height: 2em;
   width: 2em;
@@ -59,8 +62,8 @@ a {
   height: auto;
 }
 .hobbies-v {
-  width: auto;
   height: 10em;
+  width: auto;
 }
 
 .skill {
@@ -104,7 +107,7 @@ a {
 }
 
 .icon {
-  width: 20em;
+  width: 19em;
   height: auto;
 }
 
@@ -172,7 +175,7 @@ a:hover {
 /* Sticker */
 
 #sticker {
-  width: 20em;
+  width: 19em;
   height: auto;
 }
 
@@ -286,4 +289,27 @@ a:hover {
 
 .pt-12 {
   padding-top: 10rem !important;
+}
+
+@media (min-width: 768px) {
+  .px-md-8 {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+
+  .px-md-10 {
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+  }
+  .px-md-12 {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .px-lg-12 {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+  }
 }
