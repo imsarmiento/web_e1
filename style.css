@@ -49,12 +49,19 @@ a {
   flex-direction: column-reverse;
 }
 
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .card-simple {
   /*border: 1px solid lightgray;*/
   border-radius: 5px;
   width: 7em;
-  height: 10em;
+  height: 8em;
   align-items: center;
+  position: relative;
 }
 
 .hobbies-h {
@@ -132,10 +139,10 @@ a {
 }
 
 hr {
-  color: lightgray;
+  color: gray;
   background-color: lightgray;
   border: none;
-  height: 0.1em !important;
+  height: 0.13em !important;
   width: auto;
   margin: 0.5em;
 }
