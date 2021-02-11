@@ -5,7 +5,7 @@
 *Funcionalidades claves*
 
 - Boostrap 5v
-- 100% diseño responsibe
+- Diseño 100% responsibe
 - Página Única
 - Fuentes de Google Fonts
 - Íconos de Font Awesome
