@@ -4,10 +4,10 @@
 
 *Funcionalidades claves*
 
-Boostrap 5v
-100% diseño responsibe
-Página Única
-Fuentes de Google Fonts
-Íconos de Font Awesome
-Imágenes, Audio y Video
-Soporte para Chrome, Firefox y Safari
+- Boostrap 5v
+- 100% diseño responsibe
+- Página Única
+- Fuentes de Google Fonts
+- Íconos de Font Awesome
+- Imágenes, Audio y Video
+- Soporte para Chrome, Firefox y Safari
